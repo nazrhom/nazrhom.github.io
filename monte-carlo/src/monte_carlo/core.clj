@@ -6,11 +6,8 @@
 
 
 
-
-
-
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Accepts an int and returns a list of n sequences of 100 random coin flips"
   [& args]
   (if (empty? args)
     (do (println (repeatedly 10 gen-rand-seq)))
