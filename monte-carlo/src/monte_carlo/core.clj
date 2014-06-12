@@ -50,7 +50,7 @@
 
 (defn mytest
   []
-  (let [bankroll 2]
+  (let [bankroll 3]
     (if true
       (do (inc bankroll))
       (do (dec bankroll))
